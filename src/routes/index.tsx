@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 
+import MainMenu from "../features/navigation/components/MainMenu";
+
 export const Route = createFileRoute("/")({
   component: Index,
 });
@@ -7,11 +9,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div>
-      <p>BLACKSWORD</p>
-      <p>CONTINUE</p>
-      <p>LOADGAME</p>
-      <p>NEWGAME</p>
-      <p>SYSTEM</p>
+      <MainMenu />
     </div>
   );
 }
