@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "black-sword-rpg-mobile-react",
-  "version": "0.1.0",
-  "identifier": "com.kryzexinteractive.blackswordrpg",
+  "productName": "Black Sword Fantasy",
+  "version": "0.0.1",
+  "identifier": "com.oddlyhkk.blackswordfantasy",
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://localhost:5173",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "black-sword-fantasy",
+        "title": "Black Sword Fantasy",
         "width": 800,
         "height": 600,
         "resizable": true,
