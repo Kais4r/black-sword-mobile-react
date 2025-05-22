@@ -1,4 +1,4 @@
-# black-sword-fantasy-rpg
+# black sword fantasy rpg
 
 `bun dev`
 
